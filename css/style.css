@@ -163,9 +163,11 @@ img {
     }
 
 
+
     /* Why Us Section */
     .why-us .col-left {
         width: 100%;
+        margin: 40px 0;
     }
 
     .why-us .col-right {
@@ -175,5 +177,6 @@ img {
     .why-us {
         background-color: #222222;
         margin: -50px 0;
+        padding: 40px 0;
     }    
  }
