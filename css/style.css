@@ -135,11 +135,30 @@ img {
     }
 }
 
-
-
-
  /* QUERY 480px */
  @media screen and (max-width: 480px) {
 
+    /* Lessons Section */
+    .container {
+        max-width: 480px;
+    }
+
+    .lessons .col {
+        width: 100%;
+    }
+
+    .row {
+        display: block;
+    }
+
+
+    /* Steps Section */
+    .steps .col {
+        width: 100%;
+      }
+
+
+
+    /* Why */
     
  }
