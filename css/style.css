@@ -131,7 +131,7 @@ img {
  /* QUERY 768px */
 @media screen and (max-width: 768px) {
     .container {
-        max-width: 768px;
+        max-width: 100%;
     }
 }
 
@@ -140,11 +140,12 @@ img {
 
     /* Lessons Section */
     .container {
-        max-width: 480px;
+        max-width: 100%;
     }
 
     .lessons .col {
         width: 100%;
+        margin: 40px 0;
     }
 
     .row {
@@ -155,10 +156,25 @@ img {
     /* Steps Section */
     .steps .col {
         width: 100%;
-      }
+        margin: 40px 0;
+    }
 
 
 
-    /* Why */
-    
+    /* Why Us Section */
+    .why-us .col-left {
+        width: 100%;
+        margin: 40px 0;
+    }
+
+    .why-us .col-right {
+        width: 100%;
+        margin: 40px 0;
+    }
+
+    .why-us {
+        background-color: #222222;
+        margin: -50px 0;
+        padding: 40px 0;
+    }    
  }
