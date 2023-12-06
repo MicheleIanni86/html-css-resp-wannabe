@@ -137,6 +137,14 @@ img {
 
  /* QUERY 480px */
  @media screen and (max-width: 480px) {
+     
+     .row {
+         display: block;
+     }
+
+     .col {
+        margin: 40px 0;
+     }
 
     /* Lessons Section */
     .container {
@@ -145,36 +153,27 @@ img {
 
     .lessons .col {
         width: 100%;
-        margin: 40px 0;
     }
 
-    .row {
-        display: block;
-    }
 
 
     /* Steps Section */
     .steps .col {
         width: 100%;
-        margin: 40px 0;
     }
-
 
 
     /* Why Us Section */
     .why-us .col-left {
         width: 100%;
-        margin: 40px 0;
     }
 
     .why-us .col-right {
         width: 100%;
-        margin: 40px 0;
     }
 
     .why-us {
         background-color: #222222;
         margin: -50px 0;
-        padding: 40px 0;
     }    
  }
